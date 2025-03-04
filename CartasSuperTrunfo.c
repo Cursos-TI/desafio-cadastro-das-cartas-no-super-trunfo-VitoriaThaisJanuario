@@ -31,7 +31,30 @@ int main() {
  
      printf("Número de Pontos Turistícos:\n");
      scanf("%d", &pontos1);
- 
+
+  
+     printf("\nCarta 2:\n");
+     printf("Digite uma letra de A a H que represente seu estado:\n");
+     scanf(" %c", &estado2);
+
+     printf("Código com a primeira letra do estado e número de 01 a 04:\n");
+     scanf("%s", codigo2);
+
+     printf("Nome da Cidade:\n");
+     scanf("%s", cidade2);// Permite entrada com espaços
+
+     printf("População:\n");
+     scanf("%d", &populacao2);
+
+     printf("Área em km²:\n");
+     scanf("%f", &area2);
+
+     printf("PIB:\n");
+     scanf("%f", &pib2);
+
+     printf("Número de Pontos Turistícos:\n");
+     scanf("%d", &pontos2);
+
    
     return 0;
 }
