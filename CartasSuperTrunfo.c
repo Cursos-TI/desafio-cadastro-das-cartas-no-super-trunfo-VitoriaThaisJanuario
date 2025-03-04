@@ -2,7 +2,6 @@
 int main() {
     printf("Super Trunfo \n");
    
-       // Definindo a estrutura dentro da main
         char estado1, estado2;
         char codigo1[5], codigo2[5];
         char cidade1[50], cidade2[50];
