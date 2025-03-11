@@ -15,7 +15,7 @@ int main() {
      scanf(" %c", &estado1);
  
      printf("Código com a primeira letra do estado e número de 01 a 04:\n");
-     scanf("%s", codigo1);
+     scanf("%[^\n]", codigo1);
  
      printf("Nome da Cidade:\n");
      scanf("%s", cidade1);
@@ -41,7 +41,7 @@ int main() {
      scanf("%s", codigo2);
 
      printf("Nome da Cidade:\n");
-     scanf("%s", cidade2);// Permite entrada com espaços
+     scanf("%[^\n]", cidade2);
 
      printf("População:\n");
      scanf("%d", &populacao2);
